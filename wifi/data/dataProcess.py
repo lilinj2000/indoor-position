@@ -1,6 +1,7 @@
 #! /usr/bin/python
 import re
 import os
+import glob
 
 dataPattern = re.compile(r'''^BSSID: #  beginning with BSSID:
 \s
@@ -31,32 +32,30 @@ apValueMap = { "AP41": [0, 0, 0],
                "AP42": [0, 0, 0],
                "AP43": [0, 0, 0]}
 
-f = open('1_1.txt', 'r')
-
-
-location = tuple(os.path.splitext(f.name)[0].split('_'))
-# print '%s\t%s' % location
-
-for line in f:
-    result = dataPattern.search(line)
-    if result:
-        # print '%s' % result.group(1)
-        if  macAPMap.has_key(result.group(1)):
-            # print '%s\t%s' % result.groups()
-            apValueMap[macAPMap[result.group(1)]][0] += int(result.group(2))
-            apValueMap[macAPMap[result.group(1)]][1] += 1;
+for fileName in glob.glob("*.txt"):
+    f = open(fileName, 'r')
     
-for k, v in apValueMap.items():
-    if v[1]!=0:
-        apValueMap[k][2] = v[0]/v[1]
+    location = tuple(fileName.split('.')[0].split('_'))
 
-print apValueMap
+    for line in f:
+        result = dataPattern.search(line)
+        if result:
+            # print '%s' % result.group(1)
+            if  macAPMap.has_key(result.group(1)):
+                # print '%s\t%s' % result.groups()
+                apValueMap[macAPMap[result.group(1)]][0] += int(result.group(2))
+                apValueMap[macAPMap[result.group(1)]][1] += 1;
+                
+    for k, v in apValueMap.items():
+        if v[1]!=0:
+            apValueMap[k][2] = v[0]/v[1]
 
+    # print apValueMap
 
-print '%s  %s' % location,
+    print '%s\t%s' % location,
 
-for k in sorted(apValueMap):
-    print '%d' % apValueMap[k][2],
-print
+    for k in sorted(apValueMap):
+        print '\t%d' % apValueMap[k][2],
+    print
 
 
