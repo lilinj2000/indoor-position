@@ -32,6 +32,9 @@ apValueMap = { "AP41": [0, 0, 0],
                "AP42": [0, 0, 0],
                "AP43": [0, 0, 0]}
 
+gridFile = open("gridFile.data", "w");
+apFile = open("apFile.data", "w");
+
 for fileName in glob.glob("*.txt"):
     f = open(fileName, 'r')
     
@@ -45,6 +48,14 @@ for fileName in glob.glob("*.txt"):
                 # print '%s\t%s' % result.groups()
                 apValueMap[macAPMap[result.group(1)]][0] += int(result.group(2))
                 apValueMap[macAPMap[result.group(1)]][1] += 1;
+
+                # print the location and the AP info
+                apFile.write('{0}\t{1}'.format(location[0], location[1]))
+                numAP = re.search('(\d+)', macAPMap[result.group(1)]).group(0)
+                # print numAP
+                apFile.write('\t{}\t{}\n'.format(numAP, result.group(2)))
+                # print '%s\t%s' % location,
+                # print '\t%s\t%d' % (macAPMap[result.group(1)], int(result.group(2)))
                 
     for k, v in apValueMap.items():
         if v[1]!=0:
@@ -52,10 +63,15 @@ for fileName in glob.glob("*.txt"):
 
     # print apValueMap
 
-    print '%s\t%s' % location,
+    gridFile.write('{}\t{}'.format(location[0], location[1]))
+    # print '%s\t%s' % location,
 
     for k in sorted(apValueMap):
-        print '\t%d' % apValueMap[k][2],
-    print
+        gridFile.write('\t{}'.format(apValueMap[k][2]))
+        # print '\t%d' % apValueMap[k][2],
+    # print
+    gridFile.write('\n')
 
 
+gridFile.close()
+apFile.close()
