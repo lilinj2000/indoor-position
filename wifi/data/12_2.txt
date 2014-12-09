@@ -1,0 +1,498 @@
+The 1th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -52
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -38
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -46
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -46
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -50
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -44
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -44
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -42
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -54
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -65
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -65
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -70
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -74
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -62
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -82
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -44
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -61
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -67
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -60
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -82
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -80
+
+BSSID: 00:3a:99:39:b2:51  SSID:　wlan-guest   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2412   level: -91
+
+
+
+The 2th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -54
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -51
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -50
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -53
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -46
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -43
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -44
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -42
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -54
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -59
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -60
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -59
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -61
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -66
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -66
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -78
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -44
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -63
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -61
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -81
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -86
+
+BSSID: 00:3a:99:39:b2:51  SSID:　wlan-guest   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2412   level: -91
+
+
+
+The 3th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -54
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -51
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -50
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -53
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -46
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -43
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -44
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -42
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -54
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -59
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -60
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -59
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -61
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -66
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -66
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -78
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -44
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -63
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -61
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -81
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -86
+
+BSSID: 00:3a:99:39:b2:51  SSID:　wlan-guest   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2412   level: -91
+
+
+
+The 4th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -55
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -50
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -45
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -51
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -50
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -45
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -44
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -42
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -52
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -63
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -60
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -63
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -64
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -66
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -66
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -64
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -75
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -45
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -61
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -61
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -62
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -87
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -82
+
+
+
+The 5th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -55
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -50
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -45
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -51
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -50
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -45
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -44
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -42
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -52
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -63
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -60
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -63
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -64
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -66
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -66
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -64
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -75
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -45
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -61
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -61
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -62
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -87
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -82
+
+
+
+The 6th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -54
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -45
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -44
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -50
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -53
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -46
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -46
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -42
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -54
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -65
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -62
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -62
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -66
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -70
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -76
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -46
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -62
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -65
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -65
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -87
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -82
+
+
+
+The 7th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -54
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -45
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -44
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -50
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -53
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -46
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -46
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -42
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -54
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -65
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -62
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -62
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -66
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -70
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -76
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -46
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -62
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -65
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -65
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -87
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -82
+
+
+
+The 8th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -55
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -46
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -48
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -49
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -53
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -46
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -45
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -42
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -56
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -65
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -67
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -74
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -67
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -75
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -45
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -65
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -65
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -81
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -82
+
+
+
+The 9th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -55
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -46
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -48
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -49
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -53
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -46
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -45
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -42
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -56
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -65
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -67
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -74
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -67
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -75
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -45
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -65
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -65
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -81
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -82
+
+
+
+The 10th  collection：
+BSSID: 28:2c:b2:5a:8c:be  SSID:　MPS01   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2412   level: -55
+
+BSSID: cc:b2:55:d4:d5:48  SSID:　ZHONGKONG2G   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -52
+
+BSSID: 9c:d6:43:85:12:77  SSID:　MSTV-Demo   capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]   frequency: 2442   level: -45
+
+BSSID: 28:2c:b2:5a:6b:2c  SSID:　MPS02   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2412   level: -49
+
+BSSID: 6c:e8:73:66:30:b2  SSID:　vIMS_network   capabilities: [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -53
+
+BSSID: 00:0d:67:20:ba:35  SSID:　eniw-sh-eap   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -44
+
+BSSID: 00:0d:67:20:ba:37  SSID:　Untrusted-ap210   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -44
+
+BSSID: 00:0d:67:20:ba:3c  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2462   level: -45
+
+BSSID: 00:26:f2:a5:4a:29  SSID:　god_2.4G   capabilities: [WPA2-PSK-CCMP][WPS][ESS]   frequency: 2417   level: -56
+
+BSSID: 00:0d:67:20:b7:8a  SSID:　EricssonCafe   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -63
+
+BSSID: 00:0d:67:20:b7:90  SSID:　   capabilities: [WPA-PSK-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: 00:0d:67:20:b7:89  SSID:　eniw-sim   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2412   level: -64
+
+BSSID: b4:b5:2f:4d:c0:30  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -61
+
+BSSID: 0c:37:dc:04:7e:6d  SSID:　Mifi-wildc   capabilities: [WPA2-PSK-TKIP+CCMP][WPS][ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:61:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -64
+
+BSSID: b4:b5:2f:4d:51:10  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2437   level: -69
+
+BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-FG   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -77
+
+BSSID: 00:0d:67:20:ba:36  SSID:　eniw-sh-portal   capabilities: [ESS]   frequency: 2462   level: -44
+
+BSSID: b4:b5:2f:4d:51:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -70
+
+BSSID: b4:b5:2f:4d:c0:31  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -62
+
+BSSID: b4:b5:2f:4d:61:11  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2437   level: -62
+
+BSSID: b4:b5:2f:4d:c1:90  SSID:　EWA@ECN   capabilities: [WPA2-EAP-CCMP][ESS]   frequency: 2462   level: -81
+
+BSSID: b4:b5:2f:4d:c1:91  SSID:　EWA@GUEST   capabilities: [ESS]   frequency: 2462   level: -82
+
+BSSID: 00:3a:99:39:b2:51  SSID:　wlan-guest   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2412   level: -91
+
+
+
