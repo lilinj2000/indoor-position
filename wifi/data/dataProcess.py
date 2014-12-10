@@ -42,6 +42,10 @@ apValueMap = { "MPS01": [0, 0, 0],
 gridFile = open("gridFile_1209.data", "w");
 apFile = open("apFile_1209.data", "w");
 
+# keys = sorted(apValueMap)
+# gridFile.write('x\ty\t{}\t{}\t{}\n'.format(keys[0], keys[1], keys[2]))
+
+
 for fileName in glob.glob("*.txt"):
     f = open(fileName, 'r')
     
