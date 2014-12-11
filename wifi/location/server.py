@@ -1,13 +1,10 @@
-import web
 import json
-import GridFile as grid
+import logging
 
-urls = (
-    '/location', 'Location'
-)
+import web
 
-grid_file = grid.GridFile("gridFile_1209.data")
-# print grid_file.grid
+import grid
+
 
 class Location:
     def GET(self):
@@ -31,5 +28,11 @@ class Location:
             return web.badrequest();
 
 if __name__=="__main__":
+    urls = (
+        '/location', 'Location'
+    )
+
+    grid_file = grid.GridFile("gridFile_1209.data")
+
     app = web.application(urls, globals())
     app.run()
