@@ -22,13 +22,13 @@ class Location(object):
         self.hello_ = "hello world!"
         self.grid_ = grid.GridFile("gridFile_1209.data")
 
-    def get(self):
+    def GET(self):  # pylint: disable=C0103
         """http get"""
         logging.info("do GET!!!")
 
         return self.hello_
 
-    def post(self):
+    def POST(self):  # pylint: disable=C0103
         """http post"""
 
         logging.info("do POST!!!")
