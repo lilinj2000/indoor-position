@@ -1,6 +1,15 @@
-"""
-storage the grid info, and do the positioning
-"""
+#!/usr/bin/env python
+# coding: utf-8
+
+"""store grids, and match the grid"""
+
+__author__ = "Linjiang Li (lilinj2000@gmail.com)"
+__version__ = "$Revision: 1.0 $"
+__date__ = "$Date: 2014/12/11 14:40:20 $"
+__copyright__ = "Copyright (c) 2001 Linjiang Li"
+__license__ = "Python"
+
+
 import sys
 import math
 import logging

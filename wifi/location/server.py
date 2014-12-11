@@ -1,7 +1,13 @@
 #!/usr/bin/env python
-'''
- this is the positioning server
-'''
+# coding: utf-8
+
+"""positioning server base on RESTful api"""
+
+__author__ = "Linjiang Li (lilinj2000@gmail.com)"
+__version__ = "$Revision: 1.0 $"
+__date__ = "$Date: 2014/12/11 14:40:20 $"
+__copyright__ = "Copyright (c) 2001 Linjiang Li"
+__license__ = "Python"
 
 import json
 import logging
