@@ -4,8 +4,12 @@ import json
 import math
 import logging
 
+
 class GridFile:
-    """the class initial the grid file, and do positioning base on the grid info"""
+    """
+    the class initial the grid file,
+    and do positioning base on the grid info
+    """
 
     def __init__(self, file_name):
         """initial the grid file, load the file to memory"""
@@ -15,7 +19,8 @@ class GridFile:
         self.grids = []
         with open(file_name) as fd:
             for line in fd:
-                self.grids.append( tuple([ int(item) for item in (line.split()) ]) )
+                grid_list = [int(item) for item in (line.split())]
+                self.grids.append(tuple(grid_list))
 
             fd.close()
 
@@ -36,7 +41,7 @@ class GridFile:
             dist = self.distance([sig[key] for key in sorted(sig)], grid[2:])
             logging.debug('the dist is %d', dist)
 
-            if dist<min_dist:
+            if dist < min_dist:
                 min_dist = dist
                 loc = grid[0:2]
 
@@ -55,7 +60,7 @@ class GridFile:
         logging.debug('the dist**2 is %d', dist_square)
 
         return math.sqrt(dist_square)
-    
+
     def fetch_ap_value(self, request):
         """fetch the ap signal value"""
 
@@ -67,14 +72,14 @@ class GridFile:
                 sig[ap_id] = ap_sig
 
         return sig
-    
-if __name__=="__main__":
+
+if __name__ == "__main__":
     grid = GridFile("gridFile_1209.data")
     print grid.grid
 
     req_string = '''
                 {"APS":
-                 [ 
+                 [
                      {"SSID": "MPS01", "SIG": "-67"},
                      {"SSID": "MPS02", "SIG": "-56"},
                      {"SSID": "AP43", "SIG": "-40"}

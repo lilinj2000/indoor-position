@@ -35,11 +35,13 @@ class Location:
             # request_json = json.dumps(request, sort_keys=True, indent=4)
 
         except:
-            return web.badrequest();
+            return web.badrequest()
 
-if __name__=="__main__":
-    # logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
-    logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=logging.INFO)
+if __name__ == "__main__":
+    # logging.basicConfig(format='%(levelname)s:%(message)s',
+    # level=logging.DEBUG)
+    logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
+                        level=logging.INFO)
 
     urls = (
         '/location', 'Location'
