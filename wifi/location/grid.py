@@ -24,13 +24,13 @@ class GridFile(object):
     def __init__(self, file_name):
         """initial the grid file, load the file to memory"""
 
-        self.aps = ("AP43", "MPS01", "MPS02")
+        self.aps_ = ("AP43", "MPS01", "MPS02")
 
-        self.grids = []
+        self.grids_ = []
         with open(file_name) as grid_file:
             for line in grid_file:
                 grid_list = [int(item) for item in line.split()]
-                self.grids.append(tuple(grid_list))
+                self.grids_.append(tuple(grid_list))
 
             grid_file.close()
 
@@ -47,7 +47,7 @@ class GridFile(object):
 
         loc = []
 
-        for grid in self.grids:
+        for grid in self.grids_:
             dist = self.distance([sig[key] for key in sorted(sig)], grid[2:])
             logging.debug('the dist is %d', dist)
 
