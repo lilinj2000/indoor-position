@@ -11,6 +11,7 @@ __license__ = "Python"
 
 
 import sys
+import json
 import math
 import logging
 
@@ -24,7 +25,9 @@ class GridFile(object):
     def __init__(self, file_name):
         """initial the grid file, load the file to memory"""
 
-        self.aps_ = ("AP43", "MPS01", "MPS02")
+        with open("ap.cfg") as ap_file:
+            self.aps_ = json.load(ap_file)
+            ap_file.close()
 
         self.grids_ = []
         with open(file_name) as grid_file:
