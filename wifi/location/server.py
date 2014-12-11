@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+'''
+ this is the positioning server
+'''
 
 import json
 import logging
@@ -8,34 +11,41 @@ import web
 import grid
 
 
-class Location:
-    def GET(self):
+class Location(object):
+    '''
+    the location service
+    '''
+
+    def __init__(self):
+        """the init function"""
+
+        self.hello_ = "hello world!"
+        self.grid_ = grid.GridFile("gridFile_1209.data")
+
+    def get(self):
+        """http get"""
         logging.info("do GET!!!")
 
-        return "Hello, world!"
+        return self.hello_
 
-    def POST(sef):
+    def post(self):
+        """http post"""
+
         logging.info("do POST!!!")
 
-        try:
-            data = web.data()
-            logging.info('the data received is %s', data)
+        data = web.data()
+        logging.info('the data received is %s', data)
 
-            request = json.loads(data)
+        request = json.loads(data)
 
-            loc = grid_file.positioning(request)
+        loc = self.grid_.positioning(request)
 
-            response = {}
-            response["x"] = str(loc[0])
-            response["y"] = str(loc[1])
-            logging.info("the response is %s", repr(response))
+        response = {}
+        response["x"] = str(loc[0])
+        response["y"] = str(loc[1])
+        logging.info("the response is %s", repr(response))
 
-            return repr(response)
-
-            # request_json = json.dumps(request, sort_keys=True, indent=4)
-
-        except:
-            return web.badrequest()
+        return repr(response)
 
 if __name__ == "__main__":
     # logging.basicConfig(format='%(levelname)s:%(message)s',
@@ -43,11 +53,9 @@ if __name__ == "__main__":
     logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
                         level=logging.INFO)
 
-    urls = (
+    URLS = (
         '/location', 'Location'
     )
 
-    grid_file = grid.GridFile("gridFile_1209.data")
-
-    app = web.application(urls, globals())
-    app.run()
+    APP = web.application(URLS, globals())
+    APP.run()
