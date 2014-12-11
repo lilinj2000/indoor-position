@@ -14,22 +14,37 @@ import unittest
 import grid
 
 
-class StoreGrids(unittest.TestCase):
+class TestStoreGrids(unittest.TestCase):  # pylint: disable=R0904
     """load grids from file"""
 
-    def testNormalGridsFile(self):
-        """load the normal grid file"""
-    
+    def test_normal_grids_file(self):
+        """load the normal grids file"""
+
         normal_grid_file = grid.GridFile("gridFile_1209.data")
         self.assertEqual(125, len(normal_grid_file.grids_))
 
 
-class MatchGrids(unittest.TestCase):
+class TestMatchGrids(unittest.TestCase):  # pylint: disable=R0904
     """match grids"""
-    
-    def testNormalMatch(self):
+
+    def setUp(self):
+        """setup for MatchGrids test"""
+        self.grid_ = grid.GridFile("gridFile_1209.data")
+
+    def test_normal_match(self):
         """normal match, return location"""
-        self.assertTrue(True)
+
+        ap_mps01 = {"SSID": "MPS01", "SIG": "-67"}
+        ap_mps02 = {"SSID": "MPS02", "SIG": "-56"}
+        ap_43 = {"SSID": "AP43", "SIG": "-40"}
+
+        req = {}
+        req["APS"] = [ap_mps01, ap_mps02, ap_43]
+
+        loc = self.grid_.positioning(req)
+
+        exp_loc = (13, 5)
+        self.assertEqual(loc, exp_loc)
 
 
 if __name__ == "__main__":

@@ -79,24 +79,7 @@ class GridFile(object):
         for ap_info in request["APS"]:
             ap_id = ap_info["SSID"]
             ap_sig = int(ap_info["SIG"])
-            if ap_id in self.aps:
+            if ap_id in self.aps_:
                 sig[ap_id] = ap_sig
 
         return sig
-
-# if __name__ == "__main__":
-#     grid_ = GridFile("gridFile_1209.data")
-#     print grid_.grids
-
-#     req_string = '''
-#                 {"APS":
-#                  [
-#                      {"SSID": "MPS01", "SIG": "-67"},
-#                      {"SSID": "MPS02", "SIG": "-56"},
-#                      {"SSID": "AP43", "SIG": "-40"}
-#                  ]
-#                  }'''
-#     request = json.loads(req_string)
-
-#     sig = grid.fetch_ap_value(request)
-#     print sig
