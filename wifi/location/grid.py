@@ -1,11 +1,12 @@
-
+"""
+storage the grid info, and do the positioning
+"""
 import sys
-import json
 import math
 import logging
 
 
-class GridFile:
+class GridFile(object):
     """
     the class initial the grid file,
     and do positioning base on the grid info
@@ -17,12 +18,12 @@ class GridFile:
         self.aps = ("AP43", "MPS01", "MPS02")
 
         self.grids = []
-        with open(file_name) as fd:
-            for line in fd:
-                grid_list = [int(item) for item in (line.split())]
+        with open(file_name) as grid_file:
+            for line in grid_file:
+                grid_list = [int(item) for item in line.split()]
                 self.grids.append(tuple(grid_list))
 
-            fd.close()
+            grid_file.close()
 
     def positioning(self, request):
         """just do positioning base on the request"""
@@ -49,11 +50,12 @@ class GridFile:
 
         return loc
 
-    def distance(self, vec1, vec2):
+    @classmethod
+    def distance(cls, vec1, vec2):
         """calcualte the dist between two vecs"""
 
         logging.debug('the vec1 is %s, the vec2 is %s', repr(vec1), repr(vec2))
-        vec = map(lambda x, y: x-y, vec1, vec2)
+        vec = [x-y for x, y in zip(vec1, vec2)]
         logging.debug('the vec1-vec2 is %s', repr(vec))
 
         dist_square = reduce(lambda x, y: x + y**2, vec, 0)
@@ -65,27 +67,27 @@ class GridFile:
         """fetch the ap signal value"""
 
         sig = {}
-        for ap in request["APS"]:
-            ap_id = ap["SSID"]
-            ap_sig = int(ap["SIG"])
+        for ap_info in request["APS"]:
+            ap_id = ap_info["SSID"]
+            ap_sig = int(ap_info["SIG"])
             if ap_id in self.aps:
                 sig[ap_id] = ap_sig
 
         return sig
 
-if __name__ == "__main__":
-    grid = GridFile("gridFile_1209.data")
-    print grid.grid
+# if __name__ == "__main__":
+#     grid_ = GridFile("gridFile_1209.data")
+#     print grid_.grids
 
-    req_string = '''
-                {"APS":
-                 [
-                     {"SSID": "MPS01", "SIG": "-67"},
-                     {"SSID": "MPS02", "SIG": "-56"},
-                     {"SSID": "AP43", "SIG": "-40"}
-                 ]
-                 }'''
-    request = json.loads(req_string)
+#     req_string = '''
+#                 {"APS":
+#                  [
+#                      {"SSID": "MPS01", "SIG": "-67"},
+#                      {"SSID": "MPS02", "SIG": "-56"},
+#                      {"SSID": "AP43", "SIG": "-40"}
+#                  ]
+#                  }'''
+#     request = json.loads(req_string)
 
-    sig = grid.fetch_ap_value(request)
-    print sig
+#     sig = grid.fetch_ap_value(request)
+#     print sig
