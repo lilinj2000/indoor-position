@@ -9,12 +9,24 @@ __date__ = "$Date: 2014/12/11 14:40:20 $"
 __copyright__ = "Copyright (c) 2001 Linjiang Li"
 __license__ = "Python"
 
+import os
 import json
 import logging
 
 import web
 
 import grid
+
+def is_test():
+    """check if run the test condition"""
+    if 'WEBPY_ENV' in os.environ:
+        return os.environ['WEBPY_ENV'] == 'test'
+    
+urls = (  # pylint: disable=C0103
+    '/location', 'Location'
+)
+
+app = web.application(urls, globals())  # pylint: disable=C0103
 
 
 class Location(object):
@@ -27,6 +39,7 @@ class Location(object):
 
         self.hello_ = "hello world!"
         self.grid_ = grid.GridFile("gridFile_1209.data")
+        return web.header('Content-Type', 'text/html')
 
     def GET(self):  # pylint: disable=C0103
         """http get"""
@@ -42,26 +55,21 @@ class Location(object):
         data = web.data()
         logging.info('the data received is %s', data)
 
-        request = json.loads(data)
+        request = json.loads(data.replace("'", '"'))
 
         loc = self.grid_.positioning(request)
 
         response = {}
         response["x"] = str(loc[0])
         response["y"] = str(loc[1])
-        logging.info("the response is %s", repr(response))
 
-        return repr(response)
+        response = repr(response).replace("'", '"')
+        logging.info("the response is %s", response)
 
-if __name__ == "__main__":
-    # logging.basicConfig(format='%(levelname)s:%(message)s',
-    # level=logging.DEBUG)
+        return response
+
+if (not is_test()) and __name__ == "__main__":
     logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
                         level=logging.INFO)
 
-    URLS = (
-        '/location', 'Location'
-    )
-
-    APP = web.application(URLS, globals())
-    APP.run()
+    app.run()
