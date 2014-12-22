@@ -26,9 +26,9 @@ class TestServer():
         middleware = []
         testApp = TestApp(app.wsgifunc(*middleware))
 
-        ap_mps01 = {"SSID": "MPS01", "level": -67}
-        ap_mps02 = {"SSID": "MPS02", "level": -56}
-        ap_43 = {"SSID": "AP43", "level": -40}
+        ap_mps01 = {"SSID": "MPS01", "level": -67, "BSSID": "28:2c:b2:5a:8c:be"}
+        ap_mps02 = {"SSID": "MPS02", "level": -56, "BSSID": "28:2c:b2:5a:6b:2c"}
+        ap_43 = {"SSID": "AP43", "level": -40, "BSSID": "b4:b5:2f:4d:c0:20"}
 
         req = {}
         req["APInfo"] = [ap_mps01, ap_mps02, ap_43]

@@ -80,9 +80,12 @@ class GridFile(object):
 
         sig = {}
         for ap_info in request["APInfo"]:
-            ap_id = ap_info["SSID"]
-            ap_sig = ap_info["level"]
-            if ap_id in self.aps_:
-                sig[ap_id] = ap_sig
+            # ap_id = ap_info["SSID"]
+            mac = ap_info["BSSID"]
+            level = ap_info["level"]
+            for ap_id, ap_macs in self.aps_.items():
+                if mac in ap_macs["MAC"]:
+                    sig[ap_id] = level
+                    break
 
         return sig
