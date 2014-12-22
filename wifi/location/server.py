@@ -17,11 +17,12 @@ import web
 
 import grid
 
+
 def is_test():
     """check if run the test condition"""
     if 'WEBPY_ENV' in os.environ:
         return os.environ['WEBPY_ENV'] == 'test'
-    
+
 urls = (  # pylint: disable=C0103
     '/location', 'Location'
 )
@@ -39,7 +40,7 @@ class Location(object):
 
         self.hello_ = "hello world!"
         self.grid_ = grid.GridFile("gridFile_1209.data")
-        return web.header('Content-Type', 'text/html')
+        web.header('Content-Type', 'text/html')
 
     def GET(self):  # pylint: disable=C0103
         """http get"""
