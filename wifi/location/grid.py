@@ -79,9 +79,9 @@ class GridFile(object):
         """fetch the ap signal value"""
 
         sig = {}
-        for ap_info in request["APS"]:
+        for ap_info in request["APInfo"]:
             ap_id = ap_info["SSID"]
-            ap_sig = int(ap_info["SIG"])
+            ap_sig = ap_info["level"]
             if ap_id in self.aps_:
                 sig[ap_id] = ap_sig
 
