@@ -20,14 +20,6 @@ level:
 .*
 ''', re.VERBOSE)
 
-# dataPattern = re.compile(r'''^BSSID: #  beginning with BSSID:
-# .*
-# SSID:(.*)                       # the SSID info
-# \s
-# capabilities:
-# .*
-# ''', re.VERBOSE)
-
 # macs = []
 aps = {}
 for file_name in glob.glob("*.txt"):
@@ -50,5 +42,9 @@ for file_name in glob.glob("*.txt"):
 #     print item
 
 # print aps
+ap_file = open("mac_info", "w")
 for key in aps.keys():
-    print '%s\t%s' % (key, aps[key])
+    # print '%s\t%s' % (key, aps[key])
+    ap_file.write('{}\t{}\n'.format(key, aps[key]))
+
+
