@@ -26,17 +26,22 @@ class TestServer():
         middleware = []
         testApp = TestApp(app.wsgifunc(*middleware))
 
-        ap_mps01 = {"SSID": "MPS01", "level": -67, "BSSID": "28:2c:b2:5a:8c:be"}
-        ap_mps02 = {"SSID": "MPS02", "level": -56, "BSSID": "28:2c:b2:5a:6b:2c"}
-        ap_43 = {"SSID": "AP43", "level": -40, "BSSID": "b4:b5:2f:4d:c0:20"}
+        ap_1 = {"SSID": "MPS01", "level": -67, "BSSID": "b4:b5:2f:4d:51:10"}
+        ap_2 = {"SSID": "MPS02", "level": -56, "BSSID": "b4:b5:2f:4d:51:11"}
+        ap_3 = {"SSID": "MPS03", "level": -40, "BSSID": "b4:b5:2f:4d:c1:90"}
+        ap_4 = {"SSID": "MPS04", "level": -20, "BSSID": "b4:b5:2f:4d:c1:91"}
+
+        # ap_mps01 = {"SSID": "MPS01", "level": -67, "BSSID": "28:2c:b2:5a:8c:be"}
+        # ap_mps02 = {"SSID": "MPS02", "level": -56, "BSSID": "28:2c:b2:5a:6b:2c"}
+        # ap_43 = {"SSID": "AP43", "level": -40, "BSSID": "b4:b5:2f:4d:c0:20"}
 
         req = {}
-        req["APInfo"] = [ap_mps01, ap_mps02, ap_43]
+        # req["APInfo"] = [ap_mps01, ap_mps02, ap_43]
+        req["APInfo"] = [ap_1, ap_2, ap_3, ap_4]
 
         r = testApp.post('/location', repr(req))
         assert_equal(r.status, 200)
-        r.mustcontain('"x": "13"')
-        r.mustcontain('"y": "5"')
+        r.mustcontain('"Location": "TV"')
                
         # {"APInfo":[
         # {"frequency":2412,"level":-52,"capabilities":"[ESS]","BSSID":"b4:b5:2f:4d:02:d1","SSID":"EWA@GUEST"},

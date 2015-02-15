@@ -15,7 +15,8 @@ import logging
 
 import web
 
-import grid
+# import grid
+import position
 
 
 def is_test():
@@ -39,7 +40,8 @@ class Location(object):
         """the init function"""
 
         self.hello_ = "hello world!"
-        self.grid_ = grid.GridFile("gridFile_1209.data")
+        # self.grid_ = grid.GridFile("gridFile_1209.data")
+        self.position_ = position.Position()
         web.header('Content-Type', 'text/html')
 
     def GET(self):  # pylint: disable=C0103
@@ -58,11 +60,13 @@ class Location(object):
 
         request = json.loads(data.replace("'", '"'))
 
-        loc = self.grid_.positioning(request)
+        # loc = self.grid_.positioning(request)
+        loc = self.position_.positioning(request)
 
         response = {}
-        response["x"] = str(loc[0])
-        response["y"] = str(loc[1])
+        response["Location"] = loc
+        # response["x"] = str(loc[0])
+        # response["y"] = str(loc[1])
 
         response = repr(response).replace("'", '"')
         logging.info("the response is %s", response)

@@ -45,7 +45,7 @@ class Position(object):
 
             if mac in self.wifi_cfg_:
                 prob_of_tv = self.wifi_cfg_[mac]["Probability_of_TV"]
-                prob_of_rds = self.wifi_cfg_[mac]["Probability_of_TV"]
+                prob_of_rds = self.wifi_cfg_[mac]["Probability_of_RDS"]
 
                 weight_of_tv = self.wifi_cfg_[mac]["Weight"]
                 weight_of_rds = self.wifi_cfg_[mac]["Weight"]
@@ -53,7 +53,7 @@ class Position(object):
                 boundary_of_level = self.wifi_cfg_[mac]["Boundary_of_Level"]
 
                 logging.debug('mac [%s], level [%d]', mac, level)
-                logging.debug('prob_of_tv vs prob_of_rds (%d, %d)', prob_of_tv, prob_of_rds)
+                logging.debug('prob_of_tv vs prob_of_rds (%f, %f)', prob_of_tv, prob_of_rds)
                 logging.debug('weight_of_tv vs weight_of_rds (%d, %d)', weight_of_tv, weight_of_rds)
                 logging.debug('boundary_of_level [%d]', boundary_of_level)
 
@@ -66,11 +66,11 @@ class Position(object):
 
 
         # after the probability calculation finished
-        logging.debug('prob_of_tv_t vs prob_of_rds_t (%d, %d)', prob_of_tv_t, prob_of_rds_t) 
+        logging.debug('prob_of_tv_t vs prob_of_rds_t (%f, %f)', prob_of_tv_t, prob_of_rds_t) 
 
-        loc = "RDS"
-        if prob_of_tv_t<=prob_of_rds_t:
-            loc = "TV"
+        loc = "TV"
+        if prob_of_tv_t<prob_of_rds_t:
+            loc = "RDS"
 
         logging.debug('the location is %s', loc)
 

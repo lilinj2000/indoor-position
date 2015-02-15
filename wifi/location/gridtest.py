@@ -12,7 +12,7 @@ __license__ = "Python"
 import unittest
 
 import grid
-
+import logging
 
 class TestStoreGrids(unittest.TestCase):  # pylint: disable=R0904
     """load grids from file"""
@@ -34,12 +34,12 @@ class TestMatchGrids(unittest.TestCase):  # pylint: disable=R0904
     def test_normal_match(self):
         """normal match, return location"""
 
-        ap_mps01 = {"SSID": "MPS01", "SIG": "-67"}
-        ap_mps02 = {"SSID": "MPS02", "SIG": "-56"}
-        ap_43 = {"SSID": "AP43", "SIG": "-40"}
+        ap_mps01 = {"SSID": "MPS01", "level": -67, "BSSID": "28:2c:b2:5a:8c:be"}
+        ap_mps02 = {"SSID": "MPS02", "level": -56, "BSSID": "28:2c:b2:5a:6b:2c"}
+        ap_43 = {"SSID": "AP43", "level": -40, "BSSID": "b4:b5:2f:4d:c0:20"}
 
         req = {}
-        req["APS"] = [ap_mps01, ap_mps02, ap_43]
+        req["APInfo"] = [ap_mps01, ap_mps02, ap_43]
 
         loc = self.grid_.positioning(req)
 

@@ -10,7 +10,7 @@ __copyright__ = "Copyright (c) 2001 Linjiang Li"
 __license__ = "Python"
 
 import unittest
-
+import logging
 import position
 
 
@@ -52,4 +52,7 @@ class TestPositioning(unittest.TestCase):  # pylint: disable=R0904
 
 
 if __name__ == "__main__":
+    logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
+                        level=logging.DEBUG)
+
     unittest.main()
