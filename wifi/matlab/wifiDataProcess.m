@@ -14,11 +14,15 @@
 clear;
 close all;
 
-load apData;
-load gridData;
+% load apData;
+% load gridData;
+
+load apData_1209;
+load gridData_1209;
 
 % sort the grid data
-grid_data = sortrows(gridFile);
+% grid_data = sortrows(gridFile);
+grid_data = sortrows(gridFile_1209);
 
 result = [];
 all_location = [];
@@ -28,7 +32,9 @@ for jj=1:10
         base_loc = grid_data(ii, 1:2);
 
         % group the ap data
-        [ap1, ap2, ap3] = groupAPData(base_loc, apFile);
+%         [ap1, ap2, ap3] = groupAPData(base_loc, apFile);
+        [ap1, ap2, ap3] = groupAPData(base_loc, apFile_1209);
+
 
         % do positioning
         [distr, max_dist, location] = positioning (base_loc, grid_data, ap1, ap2, ap3);

@@ -34,9 +34,9 @@ ap3 = [];
 for ii=idx_first:idx_last
     
     switch ap_data(ii, 3)
-        case 41
+        case 01
             ap1 = [ap1; ap_data(ii,4)];
-        case 42
+        case 02
             ap2 = [ap2; ap_data(ii,4)];
         case 43
             ap3 = [ap3; ap_data(ii,4)];
