@@ -2,20 +2,24 @@ function levelPlot()
 %LEVELPLOT Plot the level info
 % 
 
-load map_data_0129;
+load map_data_0216;
 close all;
 
 map_0_0 = false;
 map_0_1 = false;
-map_0_2 = true;
+map_0_2 = false;
 map_0_3 = false;
 
 map_0_01 = false;
 map_0_0_01 = false;
-map_0_0_01_1 = true;
+map_0_0_01_1 = false;
 
 map_0_31 = false;
-map_0_3_31 = true;
+map_0_3_31 = false;
+
+% start 0216 data plot
+map_rds_0216 = true;
+map_tv_0216 = true;
 
 for ii=1:length(macs)
     mac = macs{ii};
@@ -93,6 +97,20 @@ for ii=1:length(macs)
         h = cdfplot(map_info_0_3_31(mac));
         set(h, 'Color', colors(index, :));
         legend_titles{index, 1} = '0-3-31';
+    end
+    
+    if map_rds_0216 && map_info_rds_0216.isKey(mac)
+        index = index + 1;
+        h = cdfplot(map_info_rds_0216(mac));
+        set(h, 'Color', colors(index, :));
+        legend_titles{index, 1} = 'rds-0216';
+    end
+    
+    if map_tv_0216 && map_info_tv_0216.isKey(mac)
+        index = index + 1;
+        h = cdfplot(map_info_tv_0216(mac));
+        set(h, 'Color', colors(index, :));
+        legend_titles{index, 1} = 'tv-0216';
     end
 
 
