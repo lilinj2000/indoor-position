@@ -11,11 +11,10 @@ import java.io.InputStreamReader;
 
 import android.content.Context;
 import android.os.Environment;
-import android.util.Log;
 
 public class FileService {
 	
-	private static String TAG = "FileService";
+//	private static String TAG = "FileService";
 	
 	public FileService(Context context) {
 	}

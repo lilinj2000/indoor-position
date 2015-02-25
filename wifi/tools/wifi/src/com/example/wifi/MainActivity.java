@@ -3,7 +3,12 @@ package com.example.wifi;
 import java.util.List;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.net.wifi.ScanResult;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
@@ -28,7 +33,7 @@ public class MainActivity extends ActionBarActivity {
     private Button stopscan;
     private wifiAdmin mWifiAdmin;
     private int num = 0;//记录对于同一个Ap收集了几次
-    private boolean flag = true;
+//    private boolean flag = true;
     private String wifiInfo = "";
     private String apResult = "";
     private  Handler handler = new Handler();
@@ -43,6 +48,8 @@ public class MainActivity extends ActionBarActivity {
     
     //保存扫描的结果
     private FileService fileService = new FileService();
+    
+    private BroadcastReceiver x=null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +57,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         
         mWifiAdmin = new wifiAdmin(MainActivity.this);  
-        init();
+       
         
         //定时的定次数的收集某一个AP的wifi的信息
         runnable = new Runnable() {
@@ -58,27 +65,53 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void run() {
 				
-				if(0 == collectTimes) {
-					flag = false;
-					num++;
-					saveWifiInfoToFile();
-				}
+				mWifiAdmin.startScan();
 				
-								
-				if((flag== true) && (num < collectTimes)) {
-		    		num++;
-		    		saveWifiInfoToFile();
-		    	}
-		    	else if(flag == true){
-		    		stopScan();
-		    	}
-				
-				
-				//启动计时器，每隔collextInteval定时一次
-				handler.postDelayed(this, collextInteval*1000);
+//				if(0 == collectTimes) {
+//					flag = false;
+//					num++;
+//					saveWifiInfoToFile();
+//				}
+//				
+//								
+//				if((flag== true) && (num < collectTimes)) {
+//		    		num++;
+//		    		saveWifiInfoToFile();
+//		    	}
+//		    	else if(flag == true){
+//		    		stopScan();
+//		    	}
+//				
+//				
+//				//启动计时器，每隔collextInteval定时一次
+//				handler.postDelayed(this, collextInteval*1000);
 			}
         };
         
+        x = new BroadcastReceiver()
+        {
+			@Override
+			public void onReceive(Context context, Intent intent) {
+				
+				saveWifiInfoToFile();
+                num++;
+                
+                if( collectTimes==0 || num<collectTimes )
+                {
+                	handler.postDelayed(runnable, collextInteval*1000);
+                }
+                else
+                {
+                	stopScan();
+//                	unregisterReceiver(x); 
+                }
+				
+			}
+        };
+        
+        init();
+        
+        registerReceiver(x, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
     }
     
     public void init(){
@@ -103,10 +136,10 @@ public class MainActivity extends ActionBarActivity {
 
     	@Override
     	public void onClick(View v) {
-    		// TODO Auto-generated method stub
+    		
     		switch (v.getId()) {
     		case R.id.scan://扫描网络
-    			flag = true;
+//    			flag = true;
     			collextInteval = Integer.parseInt(interval.getText().toString().trim());
     	        collectTimes = Integer.parseInt(times.getText().toString().trim());
     	        nameInfo = name.getText().toString().trim();
@@ -139,7 +172,7 @@ public class MainActivity extends ActionBarActivity {
 			sb=new StringBuffer();
 		}
 		//开始扫描网络
-		mWifiAdmin.startScan();
+//		mWifiAdmin.startScan();
 		list=mWifiAdmin.getWifiList();
 		if(list!=null){
 			for(int i=0;i<list.size();i++){
@@ -173,7 +206,7 @@ public class MainActivity extends ActionBarActivity {
  	   fileService.saveContentToSdcard(nameInfo + ".txt", apResult);
  	   apResult = "";
  	   num = 0;  
- 	   flag = false;
+// 	   flag = false;
     }
 
 
