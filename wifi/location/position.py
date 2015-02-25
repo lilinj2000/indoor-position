@@ -62,7 +62,7 @@ class Position(object):
                     prob_of_rds_t = prob_of_rds_t + prob_of_rds*weight_of_rds
                 else:
                     prob_of_tv_t = prob_of_tv_t + (1-prob_of_tv)*weight_of_tv
-                    prob_of_rds_t = prob_of_rds_t + (1-prob_of_rds)*weight_of_tv
+                    prob_of_rds_t = prob_of_rds_t + (1-prob_of_rds)*weight_of_rds
 
 
         # after the probability calculation finished
