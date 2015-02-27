@@ -1,3 +1,0 @@
-
-BSSID: 5a:59:f9:73:0d:58  SSID:　360免费WiFi-F3   capabilities: [WPA2-PSK-CCMP][ESS]   frequency: 2462   level: -76
-

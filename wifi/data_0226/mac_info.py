@@ -33,6 +33,8 @@ for file_name in glob.glob("*.txt"):
             # if macs.count(result.group(1))==0 :
             #     macs.append(result.group(1))
             # print '%s\t%s\n' % (result.group(1), result.group(2))
+            # print '%s' % result.group(1)
+            # print '%s' % result.group(2)
             if not aps.has_key(result.group(1)):
                 aps[result.group(1)] = result.group(2)
 
@@ -42,9 +44,16 @@ for file_name in glob.glob("*.txt"):
 #     print item
 
 # print aps
-ap_file = open("mac_info", "w")
+mac_file = open("mac_info", "wb")
 for key in aps.keys():
-    # print '%s\t%s' % (key, aps[key])
-    ap_file.write('{}\t{}\n'.format(key, aps[key]))
+    # print '%s %s' % (key, aps[key])
+    # print '%s' % key
+    # print '%s' % aps[key]
+    # mac_file.write('{}\t{}\n'.format(key, aps[key]))
+    # mac_file.write('{}\n'.format(key))
+    mac_file.write('{}\t{}\n'.format(aps[key], key))
+    # ap_file.write('\t')
+    # ap_file.write('{}\n'.format(aps[key]))
+    
 
 
