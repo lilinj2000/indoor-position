@@ -78,7 +78,29 @@
 % figure;
 % cdfplot(map_info_0_3(mac));
 
-levelPlot();
+% levelPlot();
 
 % fetchMacInfo;
 
+
+% fetchPointsFromXml;
+
+% p = fetchNormal(-0.7888)
+
+success = 0;
+for ii=1:600
+    location = normalCDFAlgo(map_points_rds{ii});
+    
+    if strcmpi(location, 'rds')
+        success = success + 1;
+    end
+end
+
+% success = 0;
+% for ii=1:600
+%     location = normalCDFAlgo(map_points_tv{ii});
+%     
+%     if strcmpi(location, 'tv')
+%         success = success + 1;
+%     end
+% end

@@ -2,10 +2,10 @@ function  mergeMaps( )
 %MERGEMAPS Merge the two map info
 %   mrege map info
 
-load map_data_0216;
+load map_data_0226;
 
-map_info = map_info_tv_0216_1;
-map_info_01 = map_info_tv_0216_2;
+map_info = map_info_rds_0226_1;
+map_info_01 = map_info_rds_0226_2;
 
 keys_01 = map_info_01.keys();
 
@@ -17,7 +17,7 @@ for ii = 1:length(keys_01)
     end
 end
 
-map_info_02 = map_info_tv_0216_3;
+map_info_02 = map_info_rds_0226_3;
 
 keys_02 = map_info_02.keys();
 for ii = 1:length(keys_02)
@@ -28,8 +28,8 @@ for ii = 1:length(keys_02)
     end
 end
 
-map_info_tv_0216 = map_info;
-save('map_data_0216', '-append', 'map_info_tv_0216');
+map_info_rds_0226 = map_info;
+save('map_data_0226', '-append', 'map_info_rds_0226');
 
 end
 
