@@ -71,6 +71,12 @@ class Location(object):
         response = repr(response).replace("'", '"')
         logging.info("the response is %s", response)
 
+        with open("rds.msr", "a") as f:
+            request["location"] = loc
+            json.dump(request, f)
+            f.write('\n')
+            
+
         return response
 
 if (not is_test()) and __name__ == "__main__":
