@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <CheckBox
+        android:id="@+id/checkBoxDevOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:fontFamily="arial"
+        android:onClick="onClickDevOption"
+        android:text="@string/dev_option"
+        android:textSize="24sp" />
+    
+    <View
+	    android:layout_width="match_parent"
+	    android:paddingTop="10dp"
+	    android:layout_height="2dp"
+	    android:background="@android:color/darker_gray"/>
+   
+    <CheckBox
+        android:id="@+id/checkBoxDEMO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:fontFamily="arial"
+        android:onClick="onClickDEMO"
+        android:paddingTop="10dp"
+        android:text="@string/demo"
+        android:textSize="16sp" />
+    
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/basic_url"
+            android:textSize="16sp"
+            android:fontFamily="arial"
+            android:textStyle="bold" />
+        
+       <EditText
+           android:id="@+id/editTextBasicURL"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:fontFamily="arial"
+           android:gravity="bottom|left"
+           android:inputType="textUri"
+           android:textSize="16sp" />
+        
+    </LinearLayout>
+    
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="arial"
+            android:text="@string/iod_area"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        
+       <EditText
+           android:id="@+id/editTextIODArea"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:fontFamily="arial"
+           android:gravity="bottom|left"
+           android:inputType="text"
+           android:textSize="16sp" />
+        
+    </LinearLayout>
+    
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/rds_area"
+            android:textSize="16sp"
+            android:fontFamily="arial"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        
+       <EditText
+           android:id="@+id/editTextRDSArea"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:fontFamily="arial"
+           android:gravity="bottom|left"
+           android:inputType="text"
+           android:textSize="16sp" />
+        
+    </LinearLayout>
+    
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/notification_interval"
+            android:textSize="16sp"
+            android:fontFamily="arial"
+            android:textStyle="bold" />
+        
+       <EditText
+           android:id="@+id/editTextNotificationInterval"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:fontFamily="arial"
+           android:gravity="bottom|left"
+           android:inputType="text"
+           android:textSize="16sp" />
+        
+    </LinearLayout>
+
+     
+
+</LinearLayout>

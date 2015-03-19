@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:baselineAligned="false"
+    tools:context="com.ericsson.mwp.SettingActivity"  >
+    
+     <TextView
+         android:id="@+id/text_setting"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/setting_banner"
+         android:drawableLeft="@drawable/setting_banner_icon"
+         android:drawablePadding="5dp"
+         android:fontFamily="arial"
+         android:gravity="center_vertical"
+         android:text="@string/setting_des"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#FFFFFF" />
+
+     <Button
+         android:id="@+id/button_notification"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:background="@drawable/setting_item1_back"
+         android:contentDescription="@string/setting_des"
+         android:drawablePadding="5dp"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:drawableRight="@drawable/setting_swtich_off"
+         android:drawableLeft="@drawable/setting_item1_icon"
+         android:fontFamily="arial"
+         android:onClick="onClickNotificationButton"
+         android:text="@string/setting_notification"
+         android:textSize="16sp"
+         android:textAllCaps="false" />
+     
+     <Button
+         android:id="@+id/button_devoption"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:background="@drawable/setting_item1_back"
+         android:contentDescription="@string/dev_option"
+         android:drawableLeft="@android:drawable/ic_menu_preferences"
+         android:drawablePadding="5dp"
+         android:fontFamily="arial"
+         android:gravity="left|center_vertical"
+         android:onClick="onClickDevOptionButton"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:text="@string/dev_option"
+         android:textAllCaps="false"
+         android:textSize="16sp" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="bottom">
+        
+	    <Button
+	        android:id="@+id/icon_about"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/setting_des"
+	        android:drawableLeft="@drawable/ic_launcher"
+	        android:background="@drawable/setting_about"
+	        android:drawablePadding="5dp"
+	        android:fontFamily="arial"
+	        android:onClick="onClickAboutButton"
+	        android:text="@string/setting_about"
+	        android:textAllCaps="false"
+	        android:textSize="24sp"
+	        android:textColor="#FFFFFF"
+	        android:gravity="center_vertical" />
+
+     </LinearLayout>
+        
+
+</LinearLayout>

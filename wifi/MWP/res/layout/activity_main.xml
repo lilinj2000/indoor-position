@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_back"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ericsson.mwp.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:fontFamily="arial"
+            android:gravity="center"
+            android:text="@string/wild_c"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="italic" />
+        
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_weight="1"
+	        android:gravity = "right">
+	        
+		    <ImageButton
+		        android:id="@+id/setting_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/main_icon_settings_normal"
+		        android:contentDescription="@string/setting_button_title"
+		        android:onClick="onClickSettingButton" />
+	    
+	    </LinearLayout>
+    
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="arial"
+        android:text="@string/wild_c_des"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|left"
+            android:orientation="horizontal" >
+
+		    <Button
+		        android:id="@+id/nearest_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/nearest_button_title"
+		        android:textAllCaps="false"
+		        android:textSize="12sp"
+		        android:textColor="#FFFFFF"
+		        android:drawableTop="@drawable/main_icon_nearest_normal"
+		        android:background="@android:color/transparent"
+		        android:contentDescription="@string/nearest_button_title"
+		        android:onClick="onClickNearestButton"
+		        android:src="@drawable/abc_ab_share_pack_holo_dark" />
+		</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+		    <Button
+		        android:id="@+id/iod_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/iod_button_title"
+		        android:textAllCaps="false"
+		        android:textSize="12sp"
+		        android:textColor="#FFFFFF"
+		        android:drawableTop="@drawable/main_icon_iod_normal"
+		        android:background="@android:color/transparent"
+		        android:contentDescription="@string/iod_button_title"
+		        android:onClick="onClickIODButton"
+		        android:src="@drawable/abc_ab_share_pack_holo_dark" />
+		</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|right"
+            android:orientation="horizontal" >
+		    
+		    <Button
+		        android:id="@+id/rds_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/rds_button_title"
+		        android:textAllCaps="false"
+		        android:textSize="12sp"
+		        android:textColor="#FFFFFF"
+		        android:drawableTop="@drawable/main_icon_rds_normal"
+		        android:background="@android:color/transparent"
+		        android:contentDescription="@string/rds_button_title"
+		        android:onClick="onClickRDSButton"
+		        android:src="@drawable/abc_ab_share_pack_holo_dark" />
+	    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

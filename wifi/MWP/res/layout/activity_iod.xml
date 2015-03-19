@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ericsson.mwp.IODActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:background="@drawable/demo_back_yellow_banner">
+        
+	        <ImageView
+	            android:id="@+id/icon_iod"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/icon_iod_des"
+	            android:src="@drawable/demo_iod_icon" />
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:orientation="vertical" >
+		        <TextView
+	                android:id="@+id/text_info_on_demand"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:fontFamily="arial"
+	                android:text="@string/info_on_demand"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:textColor="#FFFFFF" />
+	
+	            <TextView
+	                android:id="@+id/text_tv_clients"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:fontFamily="arial"
+	                android:text="@string/tv_clients"
+	                android:textAppearance="?android:attr/textAppearanceSmall"
+	                android:textColor="#FFFFFF" />
+	        </LinearLayout>
+    </LinearLayout>
+    
+
+        
+    <TextView
+        android:id="@+id/iod_des"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+		android:layout_marginTop="8dp"
+        android:fontFamily="arial"
+        android:drawableLeft="@drawable/demo_back_yellow_text"
+        android:drawablePadding="5dp"
+        android:text="@string/iod_des"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+		android:layout_weight="6"
+		android:layout_marginTop="8dp"
+		android:orientation="horizontal" >
+	    
+        <ImageView
+            android:id="@+id/iod_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/demo_back_yellow_photo"
+            android:contentDescription="@string/iod_des" />
+        
+        <ImageView
+            android:id="@+id/iod_des_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/demo_iod_photo"
+            android:contentDescription="@string/iod_des"
+            android:src="@drawable/abc_ab_share_pack_holo_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+		android:layout_weight="6"
+		android:layout_marginTop="8dp"
+		android:orientation="horizontal" >
+        
+        <ImageView
+            android:id="@+id/iod_video"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/demo_back_yellow_video"
+            android:contentDescription="@string/iod_des" />
+        
+        <VideoView
+            android:id="@+id/iod_des_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1"
+            android:contentDescription="@string/iod_des" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MWP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nearest_button_title">Nearest\nDEMO</string>
+    <string name="iod_button_title">Info on\nDemand</string>
+    <string name="rds_button_title">Radio Dot\nSystem</string>
+    <string name="font_arial">arial</string>
+    <string name="wild_c">WILD-C</string>
+    <string name="wild_c_des">Wireless Innovation Lab and Demo Center (WILD-C) was established in 2012 to enable Ericsson RAN success in RNEA and demonstrate our technology leadership towards customer.</string>
+    <string name="title_activity_rds">RDSActivity</string>
+    <string name="title_activity_iod">IODActivity</string>
+    <string name="info_on_demand">Info on Demand</string>
+    <string name="tv_clients">TV Clients</string>
+    <string name="iod_des">Info on Demand is a powerful tool for end users to obtain in real-time the interested objects displaying on TV, whether it is a live broadcast, a recorded event or a movie.</string>
+    <string name="icon_iod_des">iod icon</string>
+    <string name="radio_dot_system">Radio Dot System</string>
+    <string name="radio_access">Radio Access</string>
+    <string name="rds_des">Radio Dot System (RDS) is a breakthrough solution that eliminates all barriers to indoor mobile coverage and capacity, to effectively connect indoor users to the whole mobile eco-system.</string>
+    <string name="icon_rds_des">rds icon</string>
+    <string name="mwp_icon_title">mps wifi positioning</string>
+    <string name="setting_button_title">setting</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about_icon_app_des">app icon</string>
+    <string name="about_mps_wifi_positining">MPS Wi-Fi\nPositioning</string>
+    <string name="about_introduction">Introduction:</string>
+    <string name="about_introduction_content">This application introduces a WILD-C Tour Guide based on the location of user/customer.\n\nWhen the user/customer is approaching or within the section of a specific demo, a short introduction on the demo will be popped out.</string>
+    <string name="about_version">Version:</string>
+    <string name="about_version_no">1.0.0</string>
+    <string name="about_product_id">Product ID:</string>
+    <string name="about_product_id_content">03554&#8211;789200003&#8211;5289</string>
+    <string name="about_warning">Warning:</string>
+    <string name="about_warning_content">This mobile program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.</string>
+    <string name="about_copyright">\@ 2014 Telefonaktiebolaget LM Ericsson</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="setting_des">Settings</string>
+    <string name="setting_notification">Notification for entering new zone </string>
+    <string name="setting_about">About</string>
+    <string name="dev_option">Dev Option</string>
+    <string name="title_activity_dev_option">DevOptionActivity</string>
+    <string name="demo">demo</string>
+    <string name="basic_url">basic url: </string>
+    <string name="iod_area">IOD Area: </string>
+    <string name="rds_area">RDS Area: </string>
+    <string name="notification_interval">Notification Interval: </string>
+    <string name="title_activity_dialog">DialogActivity</string>
+
+</resources>
