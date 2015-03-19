@@ -1,4 +1,4 @@
-package com.ericsson.mwp;
+package com.river.mwp;
 
 import java.util.List;
 import java.util.Random;
@@ -22,7 +22,7 @@ import android.util.Log;
 
 public class WifiAdmin {
 
-	private String LOG = "com.ericsson.mwp.WifiAdmin";
+	private String LOG = "com.river.mwp.WifiAdmin";
 	
 	private String service = Context.WIFI_SERVICE;
 	private WifiManager wifi = null;

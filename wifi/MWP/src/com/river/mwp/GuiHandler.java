@@ -1,4 +1,4 @@
-package com.ericsson.mwp;
+package com.river.mwp;
 
 import java.lang.ref.WeakReference;
 

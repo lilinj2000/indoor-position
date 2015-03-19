@@ -1,4 +1,4 @@
-package com.ericsson.mwp;
+package com.river.mwp;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -11,7 +11,7 @@ import android.util.Log;
 
 public class Preferences {
 
-	private String LOG = "com.ericsson.mwp.Preference";
+	private String LOG = "com.river.mwp.Preference";
 	
 	SharedPreferences prefs_;
 	

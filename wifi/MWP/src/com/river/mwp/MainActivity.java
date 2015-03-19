@@ -1,4 +1,4 @@
-package com.ericsson.mwp;
+package com.river.mwp;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -17,9 +17,9 @@ import android.view.View;
 
 public class MainActivity extends Activity {
 
-	private String LOG = "com.ericsson.mwp.MainActivity";
+	private String LOG = "com.river.mwp.MainActivity";
 	
-	private String NotifyService = "com.ericsson.mwp.NOTIFY";
+	private String NotifyService = "com.river.mwp.NOTIFY";
 	
 	private Intent notify_intent_;  
 	private NotifyReceiver notify_receiver_;  

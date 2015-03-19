@@ -1,4 +1,4 @@
-package com.ericsson.mwp;
+package com.river.mwp;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -15,9 +15,9 @@ public class NotificationService extends Service {
 	
 //	private boolean DEMO = true;
 	
-	public static final String LOG = "com.ericsson.mwp.NotificationService";
+	public static final String LOG = "com.river.mwp.NotificationService";
 	
-//	private String NotifyService = "com.ericsson.mwp.NOTIFY";
+//	private String NotifyService = "com.river.mwp.NOTIFY";
 	
 //	private Intent notify_intent_ = new Intent(NotifyService);
 	

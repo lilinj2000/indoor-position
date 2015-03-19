@@ -1,4 +1,4 @@
-package com.ericsson.mwp;
+package com.river.mwp;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 public class AboutActivity extends Activity {
 
-	private String LOG = "com.ericsson.mwp.AboutActivity";
+	private String LOG = "com.river.mwp.AboutActivity";
 	private int count_;
 	private long timestamp_;
 	

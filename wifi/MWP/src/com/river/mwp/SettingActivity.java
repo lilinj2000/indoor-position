@@ -1,4 +1,4 @@
-package com.ericsson.mwp;
+package com.river.mwp;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,12 +10,12 @@ import android.os.Bundle;
 
 public class SettingActivity extends Activity {
 
-	private String LOG = "com.ericsson.mwp.SettingActivity";
+	private String LOG = "com.river.mwp.SettingActivity";
 	
 	Button notification_button;
 	Button devoption_button;
 	
-	private String NotifyService = "com.ericsson.mwp.NOTIFY";
+	private String NotifyService = "com.river.mwp.NOTIFY";
 	private Intent notify_intent_ = new Intent(NotifyService);
 	
 	Preferences prefs_;

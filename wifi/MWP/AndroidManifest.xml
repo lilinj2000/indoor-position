@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ericsson.mwp"
+    package="com.river.mwp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -36,7 +36,7 @@
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ericsson.mwp.MainActivity" />
+                android:value="com.river.mwp.MainActivity" />
         </activity>
         <activity
             android:name=".RDSActivity"
@@ -46,7 +46,7 @@
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ericsson.mwp.MainActivity" />
+                android:value="com.river.mwp.MainActivity" />
         </activity>
         
         <activity
@@ -56,7 +56,7 @@
             android:parentActivityName=".SettingActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ericsson.mwp.SettingActivity" />
+                android:value="com.river.mwp.SettingActivity" />
         </activity>
         
         <activity
@@ -66,13 +66,13 @@
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ericsson.mwp.MainActivity" />
+                android:value="com.river.mwp.MainActivity" />
         </activity>
 
         <service
             android:name=".NotificationService"
             android:enabled="true"
-            android:permission="com.ericsson.mwp.NotificationService" >
+            android:permission="com.river.mwp.NotificationService" >
         </service>
 
         <activity

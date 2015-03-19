@@ -1,4 +1,4 @@
-package com.ericsson.mwp;
+package com.river.mwp;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -11,7 +11,7 @@ public class DialogActivity extends Activity {
 
 	private int iod_rds_ = 0;
 	
-	private String NotifyService = "com.ericsson.mwp.NOTIFY";
+	private String NotifyService = "com.river.mwp.NOTIFY";
 	private Intent notify_intent_ = new Intent(NotifyService);
 	
 	@Override

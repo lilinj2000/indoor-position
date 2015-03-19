@@ -1,4 +1,4 @@
-package com.ericsson.mwp;
+package com.river.mwp;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 public class DevOptionActivity extends Activity {
 
-	private String LOG = "com.ericsson.mwp.DevOptionActivity";
+	private String LOG = "com.river.mwp.DevOptionActivity";
 	
 	private CheckBox checkBoxDevOption;
 	private CheckBox checkBoxDEMO;
